@@ -68,7 +68,7 @@ class Student
     LIMIT 1
     SQL
     DB[:conn].execute(sql, name).map do |row|
-      self.new()
+      Song.new_from_db
   end 
   
 
