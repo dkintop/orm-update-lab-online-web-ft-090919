@@ -57,5 +57,9 @@ class Student
     new_student.save
   end 
   
+  def self.new_from_db
+    
+  end 
+  
 
 end
